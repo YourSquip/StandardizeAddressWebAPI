@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "H1eA6bFKQ51zsgvFQvl+k+5yK6tJ29bRvy47o7Soj88=",
+  "Source": "StandardizeAddressWebAPI",
+  "BasePath": "_content/StandardizeAddressWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
