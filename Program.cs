@@ -10,21 +10,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-//builder.Services.AddControllersWithViews();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 //------
 builder.Services.AddCors();
-//builder.Services.AddAntiforgery(
-//    options =>
-//    {
-//        options.FormFieldName = "AntiforgerFieldName";
-//        options.HeaderName = "X-CSRF-TOKEN-HEADERNAME";
-//        options.SuppressXFrameOptionsHeader = false;
-        
-//    }
-//);
+
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddHttpClient<Service>(client =>
 {
