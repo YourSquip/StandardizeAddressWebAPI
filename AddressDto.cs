@@ -3,6 +3,7 @@
     //can be changed to record
     public class AddressDto
     {
+        public string source {  get; set; }
         public string country { get; set; }
         public string region { get; set; }
         public string city { get; set; }
